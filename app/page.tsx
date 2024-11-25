@@ -1,13 +1,12 @@
+import React from "react";
 import Hero from "@/components/hero"
 import Features from "@/components/features"
 import Analytics from "@/components/analytics"
 import ContactForm from "@/components/contact-form"
-import WelcomeLoading from "@/components/welcomeloding"
 
 export default function Home() {
   return (
     <div>
-      <WelcomeLoading />
       <div className="min-h-screen bg-background text-foreground relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba{255,255,255,0))]"></div>
         <div className="spotlight"></div>
